@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(241, 228, 211);
+    text-align: center;
+};
+nav{
+display: flexbox;
+text-decoration: none;
+
+}
