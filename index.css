@@ -196,7 +196,7 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width:942px) {
+@media screen and (max-width:842px) {
     nav.navbar {
         flex-direction: column;
 
@@ -215,6 +215,14 @@ footer {
     }
 
     .burger {
-        display: block;
+        background-image: url('images/burger.png');
     }
+
+    section {
+        /* j'ai trouvé cela sur google et ca regler mon probleme */
+        scroll-margin-top: 380px;
+
+    }
+
+
 }
