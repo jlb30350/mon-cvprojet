@@ -128,9 +128,14 @@ ul {
     list-style: none;
 }
 
-ul.portfolio li a {
-    color: black;
+ li a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+   text-align: center;
 }
+
 
 section div {
     width: 200px;
