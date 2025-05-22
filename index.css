@@ -44,9 +44,7 @@ a {
     list-style: none;
 }
 
-div .navlinks {
-    color: rgb(201, 24, 33);
-}
+
 
 .nav-links ul li a {
     color: #cbd4d4;
@@ -101,6 +99,7 @@ main section {
 
 
 section {
+     scroll-margin-top: 380px;
     margin-bottom: 40px;
      padding-top: 100px;
     margin-top: 100px;
