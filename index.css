@@ -197,11 +197,34 @@ footer {
 }
 
 @media screen and (max-width:842px) {
+
+    section {
+        scroll-margin-top: 80px;
+        margin-top: 0px;
+    }
+
     nav.navbar {
         flex-direction: column;
 
         padding: 10px 0px;
         text-align: center;
+
+    }
+
+    main {
+
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .navbar {
+        font-size: 5px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
     }
 
     .logo {
@@ -211,18 +234,16 @@ footer {
     .nav-links {
         display: none;
         position: absolute;
+        font-size: 10px;
 
     }
 
     .burger {
         background-image: url('images/burger.png');
+        background: #cbd4d4;
     }
 
-    section {
-        /* j'ai trouvé cela sur google et ca regler mon probleme */
-        scroll-margin-top: 380px;
 
-    }
 
 
 }
