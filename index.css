@@ -96,7 +96,11 @@ main section {
     align-items: center;
 }
 
- a{
+.navbar ul a {
+    color: white;
+}
+
+ul li a {
     color: #020100;
 }
 
