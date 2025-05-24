@@ -187,26 +187,17 @@ footer {
     color: #cbd4d4;
 }
 
-.burger {
+.nav-links {
     display: none;
     width: 30px;
     position: absolute;
     right: 20px;
-    cursor: pointer;
+
 }
 
 @media (max-width:600px) {
 
-    header {
-
-        background: none;
-
-    }
-
-    .navlinks {
-        display: none;
-
-    }
+    /* diminution du h1 de la navbar quand on passe en responsive petit ecran */
 
     h1 {
         font-size: 15px;
@@ -215,7 +206,7 @@ footer {
     }
 
 
-
+    /* diminution des bouton de la navbar quand on passe en responsive petit ecran */
     button.tele-cv,
     .tele-git,
     button {
@@ -223,20 +214,25 @@ footer {
         height: 50px;
         font-size: 15px;
     }
+
+    /* diminution de ma photo quand on passe en responsive petit ecran */
     .moi {
         width: 100px;
         height: 120px;
     }
 
 
+    /* cela pour eviter le logo menu avec une action javascipt que je n'ai pas vu */
+  
 
-    .navlinks {
-        display: block;
-        justify-content: center;
-    
+    .burger {
+        display: flex;
+      
     }
 
-
+    .burger ul a{
+        font-size: 15px;
+    }
 
 
 
