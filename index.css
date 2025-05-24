@@ -195,6 +195,72 @@ footer {
 
 }
 
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+}
+
+a {
+    color: #f0082b;
+    font-size: 25px;
+    padding: 35px;
+    text-decoration: underline;
+
+
+}
+
+p {
+    color: #020100;
+    font-size: 40px;
+  
+    width: 10px;
+}
+
+span {
+    color: #020100;
+    font-size: 20px;
+    
+  
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    color: #020100;
+    background-color: #3dbe31;
+    border-radius: 40px;
+    margin: 30px;
+    border: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
 @media (max-width:600px) {
 
     /* diminution du h1 de la navbar quand on passe en responsive petit ecran */
@@ -223,14 +289,14 @@ footer {
 
 
     /* cela pour eviter le logo menu avec une action javascipt que je n'ai pas vu */
-  
+
 
     .burger {
         display: flex;
-      
+
     }
 
-    .burger ul a{
+    .burger ul a {
         font-size: 15px;
     }
 
