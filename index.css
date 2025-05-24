@@ -196,52 +196,47 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width:842px) {
+@media (max-width:600px) {
 
-    section {
-        scroll-margin-top: 80px;
-        margin-top: 0px;
-    }
+    header {
 
-    nav.navbar {
-        flex-direction: column;
-
-        padding: 10px 0px;
-        text-align: center;
+        background: none;
 
     }
 
-    main {
-
-        padding-top: 0px;
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .navbar {
-        font-size: 5px;
-    }
-
-    .navbar ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .logo {
-        margin-bottom: 10px;
-    }
-
-    .nav-links {
+    .navlinks {
         display: none;
-        position: absolute;
-        font-size: 10px;
+        
+    }
+
+    h1 {
+        font-size: 15px;
+        text-align: center;
 
     }
 
-    .burger {
-        background-image: url('images/burger.png');
-        background: #cbd4d4;
+
+
+    button.tele-cv,
+    .tele-git,
+    button {
+        width: 115px;
+        height: 50px;
+        font-size: 15px;
     }
+
+
+
+ .navlinks{
+      display: block;
+      justify-content: center;
+      font-size: 5px;
+    }
+
+
+
+
+
 
 
 
