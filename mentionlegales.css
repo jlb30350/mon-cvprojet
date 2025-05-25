@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 html,
 body {
     height: 100%;
@@ -57,7 +64,7 @@ ul {
 .button {
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 49%;
     transform: translate(-40%, -60%);
     border-radius: 20px;
   background: #38ca24;
