@@ -105,7 +105,7 @@ ul li a {
 }
 
 section {
-    /* j'ai trouvé cela sur google et ca regler mon probleme */
+    /* j'ai trouvé cela sur google et ca regler mon probleme de positionnement de mon main sur l'onglet desiré */
     scroll-margin-top: 380px;
     margin-bottom: 40px;
     padding-top: 100px;
@@ -225,7 +225,9 @@ footer {
 
 
     /* cela pour eviter le logo menu avec une action javascipt que je n'ai pas vu */
-  
+  .nav{
+    display: none;
+}
 
     .burger {
         display: flex;
