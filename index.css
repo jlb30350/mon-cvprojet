@@ -1,0 +1,247 @@
+/* index.css */
+* {
+    margin: 2px;
+    padding: 2px;
+
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #cbd4d4;
+}
+
+a {
+    text-decoration: none;
+    color: #f5ecec;
+    font-size: 20px;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+.nav-links ul li a {
+    color: #cbd4d4;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.moi {
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: #020100;
+    background-color: #3dbe31;
+    border-radius: 40px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+
+    padding-top: 150px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+main section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2e9e2;
+    border-radius: 20px;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a {
+    color: white;
+}
+
+ul li a {
+    color: #020100;
+}
+
+section {
+    /* j'ai trouvé cela sur google et ca regler mon probleme de positionnement de mon main sur l'onglet desiré */
+    scroll-margin-top: 380px;
+    margin-bottom: 40px;
+    padding-top: 100px;
+    margin-top: 100px;
+
+}
+
+h1,
+h2 {
+    color: #38ca24;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.moi {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+
+}
+
+
+section div {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: 3px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 10, 6);
+
+}
+
+form input[type="email"],
+form input[type="text"] {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: #020100;
+    background-color: #49ee49;
+    border-radius: 40px;
+    margin: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+form label {
+    font-size: 20px;
+    color: #020100;
+}
+
+form label input {
+    color: #22cc0b;
+    text-align: center;
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #050505;
+    color: #cbd4d4;
+}
+
+.nav-links {
+    display: none;
+    width: 30px;
+    position: absolute;
+    right: 20px;
+
+}
+
+
+
+@media (max-width:600px) {
+
+    /* diminution du h1 de la navbar quand on passe en responsive petit ecran */
+
+    h1 {
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+
+    /* diminution des bouton de la navbar quand on passe en responsive petit ecran */
+    button.tele-cv,
+    .tele-git,
+    button {
+        width: 115px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    /* diminution de ma photo quand on passe en responsive petit ecran */
+    .moi {
+        width: 100px;
+        height: 120px;
+    }
+
+
+    /* cela pour eviter le logo menu avec une action javascipt que je n'ai pas vu */
+  .nav{
+    display: none;
+}
+
+    .burger {
+        display: flex;
+      
+    }
+
+    .burger ul a{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+}
